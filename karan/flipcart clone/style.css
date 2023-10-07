@@ -1,0 +1,78 @@
+div{
+   background-color: blue;
+   height: 60px;
+   width: 1550px;
+   margin-top: -6px;
+   margin-left: -8px;
+
+    
+  
+}
+.logo {
+   
+    top: -20px;
+    left: 22%;
+    width: 120px;
+    margin-left: 300px;
+    
+}
+input{
+   width: 320px;
+   height: 30px;
+}
+button{
+    width: 60px;
+    height: 36.5px;
+    margin-left: -6px;
+    margin-right: 100px;
+
+}
+.seller{
+    color: white;
+    font-size: 17px;
+    font-weight: 5px;
+    text-transform: capitalize;
+    margin-left: 70px;
+}
+.flipcart{
+    color: white;
+    font-size: 17px;
+    font-weight: 5px;
+    text-transform: capitalize;
+}
+.more{
+    color: white;
+    font-size: 17px;
+    font-weight: 5px;
+    text-transform: capitalize;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.cart{
+    color: white;
+    font-size: 17px;
+    font-weight: 5px;
+    text-transform: capitalize;
+   
+    
+
+}
+.billion{
+    background-color:white;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.para{
+    background-color:white;
+    text-transform: capitalize;
+    font-size: 12px;
+
+}
+.image{
+    background-color: aqua;
+    margin-top: 500px;
+    width: 200px;
+    height: 60px;
+}
+
+    

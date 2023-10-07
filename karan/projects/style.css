@@ -1,0 +1,35 @@
+.h1{
+    background-image: url(abdul.jpg);
+    border: 3px solid red;
+    height: 250px ;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+h1{
+    margin-left:450px;
+    display: inline;
+  
+}
+h2{
+    
+    position: relative;
+    left: 760px;
+    top: -10px;
+    font-family: sans-serif;
+    text-decoration: underline;
+   
+}
+.cont{
+    border: 5px solid black;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    left: 200px;
+}

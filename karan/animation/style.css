@@ -1,0 +1,44 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    border: 2px solid red;
+    /* display: flex;
+    justify-content: center;
+    align-items: center     */
+    /* animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1ms;
+    border-radius: 50%;
+    animation-direction: alternate-reverse; */
+    animation: coloranimation 2s ease-in infinite alternate;
+
+    border-radius: 100%;
+
+}
+
+/* @keyframes  coloranimation{
+    from{background-color: yellow;}
+    to{background-color: red;}
+} */
+@keyframes coloranimation {
+    0% {
+        left: 0px;
+        background-color: red;
+        
+    }
+
+    50% {
+        background-color: yellowgreen;
+    }
+
+    100% {
+        left: 500px;
+        background-color: aqua;
+        
+    }
+}

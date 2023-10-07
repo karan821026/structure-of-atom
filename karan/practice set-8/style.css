@@ -1,0 +1,23 @@
+.yadav{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-top: 20px solid yellow;
+    animation: karan 1s  infinite  ;
+    position: fixed
+   
+}
+@keyframes karan{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.karanyadav{
+   position: absolute;
+   top: 50px;
+   left: 40px;
+}

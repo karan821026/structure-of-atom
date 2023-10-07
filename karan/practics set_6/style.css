@@ -1,0 +1,40 @@
+.nav_bar{
+    display: flex;
+    background-color: blue;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 1600px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    background-color:blue;
+    color: white;
+    font-size: 25px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.karan{
+    height: 500px;
+    width: 500px;
+    border: 7px solid red;
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-self: flex-end;
+}
+.yadav{
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgb(15, 213, 38);
+    background-color: blue;
+    
+}
+

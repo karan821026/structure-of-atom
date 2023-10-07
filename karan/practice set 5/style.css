@@ -1,0 +1,26 @@
+
+
+
+
+.h2{
+    height: 200px;
+    width: 200px;
+    background-image: url(back.png.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    position: sticky;
+    left: 400px;
+    top: 0px;
+    color: red;
+    bottom: 40px;
+}
+body{
+    background-size: cover;
+    background-image: url(bg.jpg);
+}
+p{
+    color: red;
+}

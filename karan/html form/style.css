@@ -1,0 +1,11 @@
+input{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+}
+.karan{
+    display: flex;
+    justify-content: center;
+}

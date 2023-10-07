@@ -1,0 +1,72 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(0,155,0);
+    text-align: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li :hover
+ {
+    background: rgb(182, 188, 188);
+    border-radius: 3px;
+    
+
+}
+.menu-bar .fa{
+    margin-right:8px;
+}
+.sub-menu{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left:-15px;
+
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu ul li a :hover{
+
+color: #b2ff00;
+}

@@ -1,0 +1,33 @@
+.h1{
+    height: 200px;
+    width: 60px;
+    border: 5px solid red;
+    padding: 25px;
+    margin: 25px;
+}
+.h2{
+    height:50px;
+    width: 60px;
+    border: 2px solid red;
+    padding: -5px;
+    border-radius: 50%;
+    background-color: red;
+}
+.h3{
+    height:50px;
+    width: 60px;
+    border: 2px solid yellow;
+    padding: -5px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.h4{
+    height:50px;
+    width: 60px;
+    border: 2px solid green;
+    padding: -5px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
